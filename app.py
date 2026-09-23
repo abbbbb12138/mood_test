@@ -30,7 +30,3 @@ if confirmed:
             st.write("那好吧")
     else:
         st.write("请先输入您的心情指数哦！")
-    elif mood_index < 50 and at_home == "yes":
-        st.write("我马上来安慰你！")
-    elif mood_index >= 50 and at_home == "no":
-        st.write("好吧，我下次再来找你")
